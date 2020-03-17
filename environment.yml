@@ -1,0 +1,18 @@
+# Notes:
+# 1. Conda searches for packages in the channels listed below, in the order given
+# 2. For some packages the channels may defined explicitly (i.e. channel::package=version)
+# 3. Available spaCy models are described at https://spacy.io/models/en; the "Release details" button is a link to
+#    appropriate release package at GitHub
+
+name: med7-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.*
+  - jupyter
+  - pip
+  - spacy=2.2.3
+  - pip:
+      - https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg.tar.gz
+      - https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.2.5/en_core_web_lg-2.2.5.tar.gz
