@@ -10,7 +10,8 @@
 > 1. duration,
 > 1. form,
 > 1. frequency,
-> 1. route of administration and strength.
+> 1. route of administration,
+> 1. strength.
 
 ## Setup
 
