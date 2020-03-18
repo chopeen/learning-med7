@@ -13,11 +13,9 @@
 > 1. route of administration,
 > 1. strength.
 
-## Setup
+## Example
 
-```bash
-conda env create -f environment.yml
-```
+![Med7 NER tags](./images/med7-tags.png)
 
 ## Resources
 
